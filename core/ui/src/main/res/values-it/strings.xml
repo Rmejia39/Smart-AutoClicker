@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+* Copyright (C) 2023 Kevin Buzeau
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+    <!--
+      - Titles for the dialogs displayed as overlay.
+      - Allowed characters can be small due to save/delete/close buttons.
+      -->
+    <string name="dialog_overlay_title_copy_from">Copia da</string>
+    <string name="dialog_overlay_title_warning">Attenzione</string>
+    <string name="dialog_title_tutorial">Tutorial</string>
+
+    <!--
+      - Text for items in a list or vertical layout.
+      -  * Title should be short and concise.
+      -  * Desc can have more space to describe the title
+      -  * Error have the same space as desc
+      -->
+    <string name="item_title_click_position">Fare clic sulla posizione</string>
+    <string name="item_title_swipe_positions">Posizioni di scorrimento</string>
+    <string name="item_error_action_invalid_generic">Questa azione non è valida</string>
+
+    <!--
+      - Empty list messages.
+      - Views handles any length here, but try to be concise.
+      -->
+    <string name="message_empty_copy">Nulla da copiare</string>
+
+    <!--
+      - Messages.
+      - Views handles any length here, so no limitations.
+      -->
+    <string name="message_tutorial_volume_down_stop">Se lo scenario fa clic troppo rapidamente, può
+        bloccare l\'utilizzo del menu Smart AutoClicker per interromperlo.\n\nIn questo caso, è
+        possibile premere il pulsante fisico \"Volume giù\" del dispositivo per interrompere lo
+        scenario in corso.</string>
+
+    <!--
+      - Text input fields labels and error messages.
+      - Should be short and concise.
+      -->
+    <string name="input_field_label_anti_detection">Anti-rilevamento</string>
+    <string name="input_field_label_click_press_duration">Durata pressione (ms)</string>
+    <string name="input_field_label_name">Nome</string>
+    <string name="input_field_label_pause_duration">Durata attesa (ms)</string>
+    <string name="input_field_label_scenario_name">Nome scenario</string>
+    <string name="input_field_label_swipe_duration">Durata scorrimento (ms)</string>
+    <string name="input_field_error_required">Richiesto</string>
+
+    <!--
+      - Dropdown input fields texts.
+      - Those fields are made of:
+      - * a label, describing the meaning of the field. Should be short and concise.
+      - * a set of items, made of:
+      -     * a title, displayed in the dropdown list and in the field if selected. Should be short and concise.
+      -     * a helper text (if needed), displayed bellow the field and changed with the selected item. Max 2 lines.
+      -->
+
+    <!-- Dropdown field for selecting anti bot state -->
+    <string name="dropdown_item_title_anti_detection_enabled">Abilitato</string>
+    <string name="dropdown_item_title_anti_detection_disabled">Disabilitato</string>
+    <string name="dropdown_helper_text_anti_detection_enabled">Rendi la durata e posizione dei clic e scorrimenti casuali rispetto ad un piccolo intervallo</string>
+    <string name="dropdown_helper_text_anti_detection_disabled">Esegui tutte le azioni come dichiarate</string>
+
+    <!--
+      - Toast messages.
+      - Can be pretty long (2 lines).
+      -->
+    <string name="toast_configure_single_click">Tocca la posizione da cliccare</string>
+    <string name="toast_configure_swipe_from">Tocca la posizione da cui iniziare lo scorrimento</string>
+    <string name="toast_configure_swipe_to">Tocca la posizione in cui finire lo scorrimento</string>
+
+    <!--
+      - Content description texts.
+      - They are use as accessibility texts for visually impaired people. They will not be displayed but spoken.
+      -->
+    <string name="content_desc_add_button">Il pulsante per creare un elemento</string>
+    <string name="content_desc_copy_button">Il pulsante per creare una copia da un elemento esistente</string>
+    <string name="content_desc_move_menu">Sposta il menù fluttuante</string>
+    <string name="content_desc_play_pause_scenario">Avvia o ferma lo scenario</string>
+    <string name="content_desc_stop_clicker">Ferma Smart AutoClicker</string>
+    <string name="content_desc_confirm">Conferma</string>
+    <string name="content_desc_go_back">Torna al dialogo</string>
+
+</resources>
