@@ -40,3 +40,5 @@ Smart AutoClicker is an Android application allowing to automate repetitive task
 - Configure the delay before the next click
 - Modify the prority order of a click
 
+
+
